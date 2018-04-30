@@ -42,7 +42,7 @@ This solution uses the following Azure services. Details of the deployment archi
 		- listener: port 443
 - Azure Storage
 	- (7) Geo-redundant storage accounts
-- Cloud Witness
+- Azure Cloud Witness
 - Recovery Services vault
 - Azure Key Vault
 - Azure Active Directory (AAD)
