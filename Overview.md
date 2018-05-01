@@ -22,7 +22,7 @@ This solution deploys a reference architecture for an IaaS web application with 
 This solution uses the following Azure services. Details of the deployment architecture are located in the [deployment architecture](#deployment-architecture) section.
 
 - Azure Virtual Machines
-	- (1) management/bastion (Windows Server 2016 Datacenter)
+	- (1) bastion host (Windows Server 2016 Datacenter)
 	- (2) Active Directory domain controller (Windows Server 2016 Datacenter)
 	- (2) SQL Server cluster node (SQL Server 2017 on Windows Server 2016)
 	- (2) Web/IIS (Windows Server 2016 Datacenter)
@@ -67,7 +67,7 @@ Each of the subnets has a dedicated network security group (NSG):
 - 1 NSG for Application Gateway (LBNSG)
 - 1 NSG for bastion host (MGTNSG)
 - 1 NSG for Primary and Backup Domain Controllers (ADNSG)
-- 1 NSG for SQL Servers and File Share Witness (SQLNSG)
+- 1 NSG for SQL Servers (SQLNSG)
 - 1 NSG for Web Tier (WEBNSG)
 
 **Subnets**: Each subnet is associated with its corresponding NSG.
