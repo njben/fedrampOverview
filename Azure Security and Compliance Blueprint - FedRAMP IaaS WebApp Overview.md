@@ -17,7 +17,7 @@ Click [here](https://aka.ms/fedrampblueprintrepo) for deployment instructions.
 ## Architecture diagram and components
 This solution deploys a reference architecture for an IaaS web application with a SQL Server backend. The architecture includes a web tier, data tier, Active Directory infrastructure, Application Gateway, and Load Balancer. Virtual machines deployed to the web and data tiers are configured in an Availability Set, and SQL Server instances are configured in an AlwaysOn availability group for high availability. Virtual machines are domain-joined, and Active Directory group policies are used to enforce security and compliance configurations at the operating system level. A bastion host provides a secure connection for administrators to access deployed resources. **Azure recommends configuring a VPN or Azure ExpressRoute connection for management and data import into the reference architecture subnet.**
 
-![alt text](https://github.com/njben/fedrampOverview/blob/master/FedRAMP%20IaaS%20RA.png?raw=true)
+![alt text](https://github.com/njben/fedrampOverview/blob/master/Azure%20Security%20and%20Compliance%20Blueprint%20-%20FedRAMP%20IaaS%20WebApp%20Reference%20Architecture.png?raw=true)
 
 This solution uses the following Azure services. Details of the deployment architecture are located in the [deployment architecture](#deployment-architecture) section.
 
@@ -147,7 +147,7 @@ Additionally, the following OMS solutions are installed as a part of this archit
 ## Threat model
 The data flow diagram for this reference architecture is available for [download](https://aka.ms/fedrampWAdfd) or can be found below. This model can help customers understand the points of potential risk in the system infrastructure when making modifications.
 
-![alt text](https://github.com/njben/fedrampOverview/blob/master/FedRAMP%20IaaS%20Threat%20Model.png?raw=true)
+![alt text](https://github.com/njben/fedrampOverview/blob/master/Azure%20Security%20and%20Compliance%20Blueprint%20-%20FedRAMP%20IaaS%20WebApp%20Threat%20Model.png?raw=true)
 
 ## Compliance documentation
 
